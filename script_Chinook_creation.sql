@@ -5,7 +5,7 @@
    Description: Creates and populates the Chinook database.
 
 /*******************************************************************************
-   Drop database if it exists
+   Drop database if it exist
 ********************************************************************************/
 IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = N'Chinook')
 BEGIN
